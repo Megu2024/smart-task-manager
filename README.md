@@ -68,10 +68,10 @@ smart-task-manager
 
 ## Author
 
-**P N Megarajan**
-B.Tech CSE, VIT Chennai
-IITM BS Data Science (Dual Degree)
-Email: megarajan2006@gmail.com
-LinkedIn: https://www.linkedin.com/in/megarajan-p-n-2024mn/
+**P N Megarajan**<br>
+B.Tech CSE, VIT Chennai<br>
+IITM BS Data Science (Dual Degree)<br>
+Email: megarajan2006@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/megarajan-p-n-2024mn/<br>
 GitHub: https://github.com/Megu2024
 
