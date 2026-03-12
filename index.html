@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Task Manager</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<h1>Smart Task Manager</h1>
+
+<div class="top-bar">
+
+<input id="taskInput" placeholder="Add new task">
+
+<input type="date" id="deadline">
+
+<select id="priority">
+<option value="low">Low</option>
+<option value="medium">Medium</option>
+<option value="high">High</option>
+</select>
+
+<button onclick="addTask()">
+<i class="fa-solid fa-plus"></i>
+</button>
+
+</div>
+
+<div class="filters">
+
+<button onclick="setFilter('all')">All</button>
+<button onclick="setFilter('pending')">Pending</button>
+<button onclick="setFilter('completed')">Completed</button>
+
+</div>
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<p id="stats"></p>
+
+<ul id="taskList"></ul>
+
+<div class="bottom">
+
+<button onclick="clearTasks()">Clear All</button>
+
+<button onclick="toggleDarkMode()">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
